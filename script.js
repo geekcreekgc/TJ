@@ -1,2 +1,2 @@
-var Info=("© 2020-2021 TechJunction | Alpha 3.0v");
+var Info=("© 2020-2021 TechJunction.online | 1.1v");
 console.log(Info);
