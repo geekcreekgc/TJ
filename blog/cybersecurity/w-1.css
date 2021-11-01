@@ -1,0 +1,23 @@
+* {
+    padding:0;
+    margin:0;
+}
+h5 {
+    padding-top: 20px;
+    color:white;
+    font-size: 35px;
+}
+.img-1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+br {
+    display: block;
+    margin: 10px 0;
+ }
+p3 {
+    font-size: 20px;
+    color: rgb(185, 178, 178);
+}
