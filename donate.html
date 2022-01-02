@@ -31,7 +31,18 @@
   <link type="text/css" rel="stylesheet" href="magicscroll/magicscroll.css" />
   <script type="text/javascript" src="magicscroll/magicscroll.js"></script>
 </head>
+<script>
 
+var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+  return new bootstrap.Popover(popoverTriggerEl)
+})
+
+var popover = new bootstrap.Popover(document.querySelector('.example-popover'), {
+  container: 'body'
+})
+
+</script>
 <body>
 
     <!-- Nav-Bar  -->
@@ -104,7 +115,7 @@
             </p>
           </div>
           <div class="flex items-center">
-            <a class=" btn btn-primary d-block" style="text-align: center;" href="https://gpay">Donate Now</a>
+            <button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" title="Popover title" data-bs-content="And here's some amazing content. It's very engaging. Right?">Click to toggle popover</button>
           </div>
         </div>
       </div>
@@ -169,7 +180,7 @@
                   <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
                 </svg>
               </a>
-              <a class="ml-3 text-gray-400" href="https://www.instagram.com/techjunctiontj/" target="_blank">
+              <a class="ml-3 text-gray-400" href="https://www.instagram.com/techjunction_in/" target="_blank">
                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                   class="w-5 h-5" viewBox="0 0 24 24">
                   <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
