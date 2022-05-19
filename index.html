@@ -4,8 +4,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta property="title" content="Tech Junction - Home">
-  <meta name="description" content="The Tech Junction Founded in 2020,We cover technical infomation content.">
+  <meta property="title" content="Geek Creek - Home">
+  <meta name="description" content="Geek Creek Founded in 2020, We cover technical infomation content.">
   <meta name="robots" content="INDEX,FOLLOW">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,17 +14,17 @@
   <!-- import  -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-  <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+  <link rel="shortcut icon" href="img/Icon-modified.png" type="image/x-icon">
   <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
   <script src="script.js"></script>
-  <title>Tech Junction</title> <!--Tittle-->
+  <title>Home - Geek Creek</title> <!--Tittle-->
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-MT1L7MWT2M"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
+    gtag('js', new Date()); 
 
     gtag('config', 'G-MT1L7MWT2M');
   </script>
@@ -36,8 +36,22 @@
 
 <style>
 body{
-  background-color: black;
+  background-color: #001f20;
 }
+
+#btnsty{
+  background-color:#247c84;  
+  color:#d5d6d6; 
+}
+
+a#btnsty:hover {
+    background-color: #3fb7ba ;
+}
+
+a#headsty:hover{
+  color: #93f6f8 ;
+}
+
 </style>
 
 <body>
@@ -47,10 +61,9 @@ body{
   <nav class="nav justify-content-center navbar-dark">
     <div class="navbar navbar-expand-lg ">
       <div class="container-fluid">
-        
-        <a class="navbar-brand " href="/" style="color: yellow;">
-          <img src="/img/logo.png" alt="logo" width="30" height="24" class="d-inline-block align-text-top ">
-           Tech Junction
+        <a class="navbar-brand " href="/">
+          <img src="/img/Icon.png" alt="logo" width="30" height="24" class="d-inline-block align-text-top ">
+          <img src="/img/Tittle.png" alt="logo" width="50" height="30" class="d-inline-block ">
         </a>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -61,27 +74,22 @@ body{
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
 
-            <div class="container ">
-              <li class="nav-item ">
-                <a s class="nav-link" aria-current="page" href="/blog/gaming">Gaming</a>
-              </li>
-            </div>
-
-            <div class="container ">
-              <li class="nav-item ">
-                <a s class="nav-link" aria-current="page" href="/blog/science">Science</a>
-              </li>
-            </div>
-
-              <div class="container">
-              <li class="nav-item">
-                <a  class="nav-link" aria-current="page" href="/blog/technology">Technology</a>
-              </li>
-            </div>
-
             <div class="container">
-              <li class="nav-item">
-                <a  class="nav-link " aria-current="page" href="/event">Event</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Blog
+              </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="/blogs/gaming">Gaming</a></li>
+              <li><a class="dropdown-item" href="/blogs/technology">Technology</a></li>
+              <li><a class="dropdown-item" href="/blogs/science">Science</a></li>
+            </ul>
+            </li>
+          </div>
+
+            <div class="container ">
+              <li class="nav-item ">
+                <a s class="nav-link" aria-current="page" href="/courses">Courses</a>
               </li>
             </div>
 
@@ -119,7 +127,7 @@ body{
             <h2
               class="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-white sm:text-4xl sm:leading-none">
               Welcome to
-              <span class="text-yellow-500">Tech Junction</span>
+              <span style="color:#3fb7ba;">Tech Junction</span>
             </h2>
             <p class="text-base text-gray-300 md:text-lg">
               This is an Indian Technical Blog Website where you can learn many technical things and join the free live
@@ -127,14 +135,14 @@ body{
             </p>
           </div>
           <div class="flex items-center">
-            <a class=" btn btn-warning d-block" style="text-align: center;" href="#boxes">Get Started</a>
+            <a id="btnsty" class=" btn d-block" style="text-align: center;" href="#boxes">Get Started</a>
           </div>
         </div>
       </div>
       <div
         class="flex justify-center h-full overflow-hidden lg:w-2/3 xl:w-1/2 lg:absolute lg:justify-start lg:bottom-0 lg:right-0 lg:items-end">
-        <img src="https://kitwind.io/assets/kometa/full-browser.png"
-          class="object-cover object-top w-full h-64 max-w-xl -mb-16 rounded shadow-2xl lg:ml-64 xl:ml-8 lg:-mb-24 xl:-mb-28 lg:h-auto lg:max-w-screen-md"
+        <img src="/img/channel_art.png"
+        class="object-cover w-full h-56 rounded shadow-lg sm:h-96"
           alt="" />
       </div>
     </div>
@@ -142,11 +150,11 @@ body{
 
     <!-- Top News  -->
 
-    <div id="tn" class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+    <div id="boxes" class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
       <div class="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
         <div>
           <h1 class="sm:text-3xl text-2xl font-medium title-font text-white">Top <span
-              class="text-yellow-300">News</span></h1>
+            style="color:#3fb7ba;">News</span></h1>
         </div>
       </div>
 
@@ -160,11 +168,16 @@ body{
                   <span class="text-gray-400 pb-2 mb-2 border-b-2 border-gray-700">Mar/22</span>
                   <span class="font-medium text-lg leading-none text-gray-300 title-font">28</span>
                 </div>
+<<<<<<< HEAD
+                <a href="blog/technology/Apple_iPad_Air" target="_blank" aria-label="View Item"
+          class="inline-block overflow-hidden duration-300 transform  rounded shadow-sm hover:-translate-y-2">
+=======
                 <a href="blog/technology/Apple-iPad-Air" aria-label="View Item"
           class="inline-block overflow-hidden duration-300 transform  rounded shadow-sm hover:-translate-y-2 hover:text-yellow-100">
+>>>>>>> d48380f80f8d817228d4798714830ecccde7a2ab
                 <div class="flex-grow pl-6">
-                  <h2 class="tracking-widest text-xs title-font font-medium text-yellow-500 mb-1">TECHNOLOGY</h2>
-                  <h1 class="title-font text-xl font-medium mb-3">Apple introduced their new iPad Air</h1>
+                  <h2 style="color:#d5d6d6" class="tracking-widest text-xs title-font font-medium  mb-1">TECHNOLOGY</h2>
+                  <h1 style="color:#3fb7ba" class="title-font text-xl font-medium mb-3">Apple introduced their new iPad Air</h1>
                   <br>
                   <img src="https://c.tenor.com/iCyfSOweZloAAAAC/ipad-air-apple-ipad-air.gif" class="object-cover w-full h-48" alt="Ubisoft" />                  
                 </div>
@@ -178,11 +191,16 @@ body{
                   <span class="text-gray-400 pb-2 mb-2 border-b-2 border-gray-700">Feb/22</span>
                   <span class="font-medium text-lg leading-none text-gray-300 title-font">02</span>
                 </div>
+<<<<<<< HEAD
+                <a href="blog/science/The-Physics-of-The-N95-Face-Mask" target="_blank" aria-label="View Item"
+          class="inline-block overflow-hidden duration-300 transform  rounded shadow-sm hover:-translate-y-2">
+=======
                 <a href="blog/science/The-Physics-of-The-N95-Face-Mask" aria-label="View Item"
           class="inline-block overflow-hidden duration-300 transform  rounded shadow-sm hover:-translate-y-2 hover:text-yellow-100">
+>>>>>>> d48380f80f8d817228d4798714830ecccde7a2ab
                 <div class="flex-grow pl-6">
-                  <h2 class="tracking-widest text-xs title-font font-medium text-yellow-500 mb-1">SCIENCE</h2>
-                  <h1 class="title-font text-xl font-medium mb-3">The Physics of The N95 Face Mask</h1>
+                  <h2 style="color:#d5d6d6" class="tracking-widest text-xs title-font font-medium  mb-1">SCIENCE</h2>
+                  <h1 style="color:#3fb7ba" class="title-font text-xl font-medium mb-3">The Physics of The N95 Face Mask</h1>
                   <br>
                   <img src="https://static01.nyt.com/images/2021/02/17/business/17Techfix-illo/17Techfix-illo-articleLarge.gif?quality=75&auto=webp&disable=upscale" class="object-cover w-full h-48" alt="N95" />                  
                 </div>
@@ -196,11 +214,16 @@ body{
                   <span class="text-gray-400 pb-2 mb-2 border-b-2 border-gray-700">Feb/22</span>
                   <span class="font-medium text-lg leading-none text-gray-300 title-font">10</span>
                 </div>
+<<<<<<< HEAD
+                <a href="blog/gaming/NFT-Minecraft-Project" target="_blank" aria-label="View Item"
+          class="inline-block overflow-hidden duration-300 transform  rounded shadow-sm hover:-translate-y-2">
+=======
                 <a href="blog/gaming/NFT-Minecraft-Project" aria-label="View Item"
           class="inline-block overflow-hidden duration-300 transform  rounded shadow-sm hover:-translate-y-2 hover:text-yellow-100">
+>>>>>>> d48380f80f8d817228d4798714830ecccde7a2ab
                 <div class="flex-grow pl-6">
-                  <h2 class="tracking-widest text-xs title-font font-medium text-yellow-500 mb-1">GAMING</h2>
-                  <h1 class="title-font text-xl font-medium mb-3">NFT Minecraft Project Sells $1.2 Million In Tokens</h1>
+                  <h2 style="color:#d5d6d6" class="tracking-widest text-xs title-font font-medium  mb-1">GAMING</h2>
+                  <h1 style="color:#3fb7ba" class="title-font text-xl font-medium mb-3">NFT Minecraft Project Sells $1.2 Million In Tokens</h1>
                   <br>
                   <img src="https://media0.giphy.com/media/v63B5WpbX0a03HAVRV/giphy.gif?cid=ecf05e474ulrni5b632vmzk81ihh5iry08k6b38ugfv5wfp7&rid=giphy.gif&ct=g" class="object-cover w-full h-48" alt="Minecraft"/>                  
                 </div>
@@ -223,7 +246,7 @@ body{
       <div class="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
         <div>
           <h1 class="sm:text-3xl text-2xl font-medium title-font text-white">Top <span
-              class="text-yellow-300">Event</span></h1>
+              style="color:#3fb7ba;">Event</span></h1>
         </div>
         <br>
         <p class="lg:w-3/3 mx-auto leading-relaxed text-base text-gray-300">
@@ -231,6 +254,11 @@ body{
         </p>
       </div>
       <div class="grid gap-5 row-gap-5 mb-8 lg:grid-cols-4 sm:grid-cols-2 ">
+<<<<<<< HEAD
+
+        <a href="https://youtu.be/QcKYOAjpu-g" target="_blank" aria-label="View Item"
+          class="inline-block overflow-hidden duration-300 transform  rounded shadow-sm hover:-translate-y-2">
+=======
         
         <a href="/event/HackJet" aria-label="View Item"
           class="inline-block overflow-hidden duration-300 transform  rounded shadow-sm hover:-translate-y-2 hover:text-yellow-100">
@@ -249,27 +277,33 @@ body{
 
         <a href="https://youtu.be/QcKYOAjpu-g" aria-label="View Item"
           class="inline-block overflow-hidden duration-300 transform  rounded shadow-sm hover:-translate-y-2 hover:text-yellow-100">
+>>>>>>> d48380f80f8d817228d4798714830ecccde7a2ab
           <div class="flex flex-col h-full">
-            <img src="./img/Basic Concept of Java.png" class="object-cover w-full h-48" alt="Basic Concept Of Java" />
+            <img src="./img/banners/Basic Concept of Java.png" class="object-cover w-full h-48" alt="Basic Concept Of Java" />
             <div class="flex-grow border-2 border-gray-800 rounded-lg overflow-hidden">
               <div class="p-5 ">
-                <h6 class="mb-2 font-semibold leading-5">Basic Concept of Java | Part 1</h6>
+                <h6 style="color:#3fb7ba;"  class="mb-2 font-semibold leading-5">Basic Concept of Java | Part 1</h6>
                 <p class="text-sm text-gray-300">
                   Computer Arclight was invited for giving the concept of java. Hosted By Ayush Baral, Founder of Tech
-                  Junction.
+                  Junction.....
                 </p>
               </div>
             </div>
           </div>
         </a>
 
+<<<<<<< HEAD
+        <a href="https://youtu.be/-cKy-5xs2xY" target="_blank" aria-label="View Item"
+          class="inline-block overflow-hidden duration-300 transform  rounded shadow-sm hover:-translate-y-2">
+=======
         <a href="https://youtu.be/-cKy-5xs2xY" aria-label="View Item"
           class="inline-block overflow-hidden duration-300 transform  rounded shadow-sm hover:-translate-y-2 hover:text-yellow-100">
+>>>>>>> d48380f80f8d817228d4798714830ecccde7a2ab
           <div class="flex flex-col h-full">
-            <img src="./img/TeamMeetup.png" class="object-cover w-full h-48" alt="Teem Meetup" />
+            <img src="./img/banners/TeamMeetup.png" class="object-cover w-full h-48" alt="Teem Meetup" />
             <div class="flex-grow border-2 border-gray-800 rounded-lg overflow-hidden">
               <div class="p-5 ">
-                <h6 class="mb-2 font-semibold leading-5 ">Team Meetup | Tech Junction</h6>
+                <h6 style="color:#3fb7ba;" class="mb-2 font-semibold leading-5 ">Team Meetup | Tech Junction</h6>
                 <p class="text-sm text-gray-300">
                   We will introduce our team and teach the basics of building a team and many more things, Stay
                   Tuned......
@@ -284,98 +318,16 @@ body{
     </div>
     </div>
 
-    <!--Social Media Box-->
+    <!-- Feedback -->
 
-    <div class="container px-5 py-24 mx-auto flex flex-wrap" id="smb">
-      <div class="flex flex-col text-center w-full mb-20">
-        <h1 class="sm:text-3xl text-3xl font-medium title-font text-white fs-1">Social <span
-            class="text-yellow-500">Media</span></h1>
-            <br>
-            <p class="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-300">We were active on all social media to solve your problem and receive your suggestion.</p>
-          </div>
-
+    <section class="text-gray-600 body-font">
       <div class="container px-5 py-24 mx-auto">
-        <div class="flex flex-wrap -m-4">
-
-          <div class="p-4 lg:w-1/2 md:w-full  inline-block overflow-hidden duration-300 transform  rounded shadow-sm hover:-translate-y-2 hover:-translate-y-2">
-            <div class="flex border-2 rounded-lg border-gray-800 p-8 sm:flex-row flex-col bg-blue-500">
-              <div
-                class="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full bg-gray-800 text-indigo-400 flex-shrink-0">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 333334 333334" shape-rendering="geometricPrecision"
-                  text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd"
-                  clip-rule="evenodd">
-                  <defs>
-                    <linearGradient id="a" gradientUnits="userSpaceOnUse" x1="162482" y1="307276" x2="170852"
-                      y2="26057.5">
-                      <stop offset="0" stop-color="#19a8dd" />
-                      <stop offset=".678" stop-color="#2ab2e2" />
-                      <stop offset="1" stop-color="#3cbde8" />
-                    </linearGradient>
-                  </defs>
-                  <circle cx="166667" cy="166667" r="166667" fill="url(#a)" />
-                  <path
-                    d="M246886 91205l-29735 149919s-4158 10396-15594 5404l-68618-52606-24952-12059-42002-14140s-6446-2288-7069-7277c-624-4992 7277-7694 7277-7694l166970-65498s13722-6030 13722 3951z"
-                    fill="#fefefe" />
-                  <path
-                    d="M127666 239440s-2003-188-4499-8089c-2495-7901-15178-49487-15178-49487l100846-64043s5822-3535 5614 0c0 0 1040 623-2079 3534s-79222 71320-79222 71320l-5481 46765z"
-                    fill="#d4e6f1" />
-                  <path d="M159250 214094l-27141 24745s-2122 1609-4443 601l5197-45965 26387 20619z" fill="#b6d0e5" />
-                </svg>
-              </div>
-              <div class="flex-grow ">
-                <h2 class="text-white text-lg title-font font-medium mb-3"></h2>
-                <a class="text-white text-lg title-font font-medium mb-3" target="_blank"
-                  href="https://t.me/techjunctiontj"> Join Us on Telegram</a>
-              </div>
-            </div>
-          </div>
-          <div class="p-4 lg:w-1/2 md:w-full  inline-block overflow-hidden duration-300 transform  rounded shadow-sm hover:-translate-y-2 hover:-translate-y-2">
-            <div class="flex border-2 rounded-lg border-gray-800 p-8 sm:flex-row flex-col"
-              style="background-color: #7289da;">
-              <div
-                class="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full text-indigo-400 flex-shrink-0">
-                <img src="/img/Discord-Logo-White.png" alt="discord">
-              </div>
-              <div class="flex-grow">
-                <h2 class="text-white text-lg title-font font-medium mb-3"></h2>
-                <a class="text-white text-lg title-font font-medium mb-3 " target="_blank"
-                  href="https://discord.gg/gxtQB4ws7m"> Join Us on Discord</a>
-              </div>
-            </div>
-          </div>
-          <div class="p-4 lg:w-1/2 md:w-full inline-block overflow-hidden duration-300 transform  rounded shadow-sm hover:-translate-y-2 hover:-translate-y-2">
-            <div class="flex border-2 rounded-lg border-gray-800 p-8 sm:flex-row flex-col"
-              style="background-color:#4267B2;">
-              <div
-                class="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full text-indigo-400 flex-shrink-0">
-                <img src="/img/facebook-logo-2019.png" alt="Facebook">
-              </div>
-              <div class="flex-grow">
-                <h2 class="text-white text-lg title-font font-medium mb-3"></h2>
-                <a class="text-white text-lg title-font font-medium mb-3 " target="_blank"
-                  href="https://www.facebook.com/techjunctiontj"> Join Us on Facebook</a>
-              </div>
-            </div>
-          </div>
-          <div class="p-4 lg:w-1/2 md:w-full inline-block overflow-hidden duration-300 transform  rounded shadow-sm hover:-translate-y-2 hover:-translate-y-2">
-            <div class="flex border-2 rounded-lg border-gray-800 p-8 sm:flex-row flex-col"
-              style="background-color: #25D366;">
-              <div
-                class="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full text-indigo-400 flex-shrink-0">
-                <img src="/img/whatsapp.png" alt="Whatsapp">
-              </div>
-              <div class="flex-grow">
-                <h2 class="text-white text-lg title-font font-medium mb-3"></h2>
-                <a class="text-white text-lg title-font font-medium mb-3 " target="_blank"
-                  href="https://chat.whatsapp.com/GbyiSW4aZwJK04nGbTSs90"> Join Us on Whatsapp</a>
-              </div>
-            </div>
-          </div>
+        <div class="lg:w-2/3 flex flex-col sm:flex-row sm:items-center items-start mx-auto">
+          <h1 style="color:#3fb7ba;" class="flex-grow sm:pr-16 text-2xl font-medium title-font ">We would love to hear your thoughts or feedback on how we can improve your experience!</h1>
+          <a id="btnsty" class="btn flex-shrink-0 border-0 py-2 px-8 focus:outline-none rounded text-lg mt-10 sm:mt-0" target="_blank" href="https://forms.gle/fbdgwsU8uTmti5pJ9">Feedback</a>
         </div>
       </div>
-    </div>
-    
-
+    </section>
 
       <hr>
 
@@ -386,56 +338,63 @@ body{
       class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
       <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
         <a class="title-font font-medium md:justify-start justify-center text-white">
-          <p class="text-yellow-500 text-sm text-center sm:text-left">© 2021 techjunction.online
-          </p>
+          <p style="color: #3fb7ba;" class="text-sm text-center sm:text-left">© 2020 GeekCreek</p>
           <br>
         </a>
       </div>
       <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
         <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-          <h2 class="title-font font-medium text-yellow-500 tracking-widest text-sm mb-3">Quick Links</h2>
+          <h2 style="color: #3fb7ba;" class="title-font font-medium tracking-widest text-sm mb-3">Quick Links</h2>
           <nav class="list-none mb-10">
             <li>
-              <a class="text-gray-500 hover:text-yellow-100 " href="/aboutus">About Us</a>
+              <a style="color:white" onMouseOut="this.style.color='#ffffff'"
+                onMouseOver="this.style.color='#3fb7ba'" href="/aboutus">About Us</a>
           </li>
           <li>
-              <a class="text-gray-500 hover:text-yellow-100" href="/privacy&policy">Privacy Policy</a>
+              <a style="color:white" onMouseOut="this.style.color='#ffffff'"
+                onMouseOver="this.style.color='#3fb7ba'" href="/privacy&policy">Privacy Policy</a>
           </li>
           <li>
-              <a class="text-gray-500 hover:text-yellow-100" href="/terms&condition">Terms & Conditions</a>
+              <a style="color:white" onMouseOut="this.style.color='#ffffff'"
+                onMouseOver="this.style.color='#3fb7ba'" href="/terms&condition">Terms & Conditions</a>
           </li>
           </nav>
         </div>
         <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-          <h2 class="title-font font-medium text-yellow-500 tracking-widest text-sm mb-3">Address</h2>
+          <h2  style="color: #3fb7ba;" class="title-font font-medium tracking-widest text-sm mb-3">Address</h2>
           <nav class="list-none mb-10">
-            <p class="mt-2 text-sm text-yellow-100">Hospital Road,Duttapukur,West Bengal,Kolkata-743248</p>
+            <p style="color: #ffffff;" class="mt-2 text-sm ">Duttapukur, West Bengal, India</p>
           </nav>
         </div>
         <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-          <h2 class="title-font font-medium text-yellow-500 tracking-widest text-sm mb-3">Contact Us</h2>
+          <h2 style="color: #3fb7ba;" class="title-font font-medium tracking-widest text-sm mb-3">Contact Us</h2>
           <nav class="list-none mb-10">
-            <p class="mt-2 text-sm text-yellow-100">Tjhelpcenter@gmail.com</p>
+            <a style="color:white" onMouseOut="this.style.color='#ffffff'"
+            onMouseOver="this.style.color='#3fb7ba'" href="mailto:help.geekcreek@gmail.com" target="_blank" class="mt-2 text-sm">help.geekcreek@gmail.com</a>
           </nav>
         </div>
         <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-          <h2 class="title-font font-medium text-yellow-500 tracking-widest text-sm mb-3">Find us on</h2>
+          <h2 
+          style="color: #89fbfd;" class="title-font font-medium tracking-widest text-sm mb-3">Find us on</h2>
           <nav class="list-none mb-10">
             <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
-              <a class="text-gray-500 hover:text-yellow-100" href="https://www.facebook.com/Tech-Junction-107974924934869" target="_blank">
+              <a style="color:white" onMouseOut="this.style.color='#ffffff'"
+              onMouseOver="this.style.color='#3fb7ba'" class="ml-3" href="https://www.facebook.com/geekcreekgc" target="_blank">
                 <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
                   viewBox="0 0 24 24">
                   <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
                 </svg>
               </a>
-              <a class="ml-3 text-gray-500 hover:text-yellow-100" href="https://www.instagram.com/techjunctiontj/" target="_blank">
+              <a style="color:white" onMouseOut="this.style.color='#ffffff'"
+            onMouseOver="this.style.color='#3fb7ba'" class="ml-3" href="https://www.instagram.com/geekcreekgc/" target="_blank">
                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                   class="w-5 h-5" viewBox="0 0 24 24">
                   <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
                   <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
                 </svg>
               </a>
-              <a class="ml-3 text-gray-500 hover:text-yellow-100" href="https://www.youtube.com/channel/UCIISWFqS8QBfTOXifX3G8Gg"
+              <a style="color:white" onMouseOut="this.style.color='#ffffff'"
+            onMouseOver="this.style.color='#3fb7ba'" class="ml-3 text" href="https://www.youtube.com/channel/UCIISWFqS8QBfTOXifX3G8Gg"
                 target="_blank">
                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                   class="w-5 h-5" viewBox="0 0 24 24">
@@ -449,7 +408,7 @@ body{
                         }
 
                         .cls-2 {
-                          fill: #fff;
+                          fill: #fff; 
                         }
                       </style>
                     </defs>
@@ -460,9 +419,11 @@ body{
                   </svg>
                 </svg>
               </a>
-              <a class="ml-3 text-gray-500 hover:text-yellow-100" href="https://twitter.com/techjunctiontj" target="_blank">
-                <svg ill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                class="w-5 h-5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/></svg>
+              <a style="color:white" onMouseOut="this.style.color='#ffffff'"
+            onMouseOver="this.style.color='#3fb7ba'" class="ml-3" href="https://twitter.com/geekcreekgc" target="_blank">
+                <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                </svg>
               </a>
             </span>
           </nav>

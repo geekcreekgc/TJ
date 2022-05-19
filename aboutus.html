@@ -14,12 +14,12 @@
   <!-- import  -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-  <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+  <link rel="shortcut icon" href="img/Icon-modified.png" type="image/x-icon">
   <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
   <script src="script.js"></script>
   <script src="aboutus.js"></script>
 
-  <title>About - Tech Junction</title>
+  <title>About - Geek Creek</title>
 
 
 
@@ -39,81 +39,89 @@
 </head>
 
 <style>
-body{
-  background-color: black;
-}
-</style>
-
-<body>
-
-  <!-- Nav-Bar  -->
-
-  <nav class="nav justify-content-center navbar-dark">
-    <div class="navbar navbar-expand-lg ">
-      <div class="container-fluid">
-        
-        <a class="navbar-brand " href="/" style="color: yellow;">
-          <img src="/img/logo.png" alt="logo" width="30" height="24" class="d-inline-block align-text-top ">
-           Tech Junction
-        </a>
-
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
-
-            <div class="container ">
-              <li class="nav-item ">
-                <a s class="nav-link" aria-current="page" href="/blog/gaming">Gaming</a>
-              </li>
-            </div>
-
-            <div class="container ">
-              <li class="nav-item ">
-                <a s class="nav-link " aria-current="page" href="/blog/science">Science</a>
-              </li>
-            </div>
-
+  body{
+    background-color: #001f20;
+  }
+  
+  #btnsty{
+    background-color:#247c84;  
+    color:#d5d6d6; 
+  }
+  
+  div#btnsty:hover {
+      background-color: #3fb7ba ;
+  }
+  
+  a#headsty:hover{
+    color: #93f6f8 ;
+  }
+  
+  </style>
+  
+  <body>
+  
+    <!-- Nav-Bar  -->
+  
+    <nav class="nav justify-content-center navbar-dark">
+      <div class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+          <a class="navbar-brand " href="/">
+            <img src="/img/Icon.png" alt="logo" width="30" height="24" class="d-inline-block align-text-top ">
+            <img src="/img/Tittle.png" alt="logo" width="50" height="30" class="d-inline-block ">
+          </a>
+  
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+  
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+  
               <div class="container">
-              <li class="nav-item">
-                <a  class="nav-link" aria-current="page" href="/blog/technology">Technology</a>
-              </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Blog
+                  </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="/blogs/gaming">Gaming</a></li>
+                  <li><a class="dropdown-item" href="/blogs/technology">Technology</a></li>
+                  <li><a class="dropdown-item" href="/blogs/science">Science</a></li>
+                </ul>
+                </li>
+              </div>
+    
+                <div class="container ">
+                  <li class="nav-item ">
+                    <a s class="nav-link" aria-current="page" href="/courses">Courses</a>
+                  </li>
+                </div>
+    
+                <div class="container">
+                  <li class="nav-item">
+                    <a  class="nav-link " aria-current="page"
+                      href="https://www.youtube.com/channel/UCIISWFqS8QBfTOXifX3G8Gg/videos" target="_blank">Video</a>
+                  </li>
+                </div>
+    
+                <div class="container">
+                  <li class="nav-item">
+                    <a  class="nav-link" aria-current="page" href="/aboutus">About </a>
+                  </li>
+                </div>
+                       
+              </ul>
             </div>
-
-            <div class="container">
-              <li class="nav-item">
-                <a  class="nav-link " aria-current="page" href="/event">Event</a>
-              </li>
-            </div>
-
-            <div class="container">
-              <li class="nav-item">
-                <a  class="nav-link " aria-current="page"
-                  href="https://www.youtube.com/channel/UCIISWFqS8QBfTOXifX3G8Gg/videos" target="_blank">Video</a>
-              </li>
-            </div>
-
-            <div class="container">
-              <li class="nav-item">
-                <a  class="nav-link active" aria-current="page" href="/aboutus">About </a>
-              </li>
-            </div>
-                   
-          </ul>
+          </div>
         </div>
+      </nav>
       </div>
-    </div>
-  </nav>
-  </div>
-
-
+    
+      <hr>
+  
   <!-- Official Team-->
 
-  
-  <section >
+  <!-- <section >
     <div class="container px-6 py-10 mx-auto">
         <h1 class="text-3xl font-semibold text-center capitalize lg:text-4xl text-white">Our<span
           class="text-yellow-300"> Team</span></h1>
@@ -125,13 +133,103 @@ body{
         <div class="flex items-center justify-center">
             <div class="flex items-center p-1 border border-blue-400 rounded-xl">
                 <button onclick="official()" class="px-4 py-2 text-sm font-medium capitalize  md:py-3 rounded-xl md:px-12 text-white" >Officials</button>
-                <button onclick="intern()" class="px-4 py-2 text-sm font-medium text-white capitalize  md:py-3 rounded-xl md:px-12">Intern</button>
             </div>
         </div>       
 
         <div id="card" class="grid grid-cols-1 gap-8 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-3">
         </div>
      </div>
+</section> -->
+
+
+<section >
+  <div class="container px-6 py-10 mx-auto">
+      <h1 class="text-3xl font-semibold text-white text-center capitalize lg:text-4xl">Our<span style="color:#3fb7ba;"> Team</span></h1>
+      
+      <p class="max-w-2xl mx-auto my-6 text-center text-gray-300">
+        Talent wins games, but teamwork and intelligence win championships.
+      </p>
+
+      <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-4">
+          
+        <div style="background-color:#104849;" class="flex flex-col items-center p-8 transition-colors duration-300 transform cursor-pointer group rounded-xl hover:-translate-y-2">
+              <img class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300" src="/img/member/Ayush.jpeg" alt="pf">
+              
+              <h1 style="color: #3fb7ba;" class="mt-4 text-2xl font-semibold capitalize ">Ayush Baral</h1>
+                        
+              <p style="color: #3fb7ba;" class="mt-2 capitalize">Founder</p>
+              
+              <div class="flex mt-3 -mx-2">
+                <a style="color:white" onMouseOut="this.style.color='#ffffff'"
+                onMouseOver="this.style.color='#3fb7ba'" class="ml-3" href="https://www.instagram.com/2by.dev/" target="_blank">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    class="w-5 h-5" viewBox="0 0 24 24">
+                    <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                    <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                  </svg>
+                </a>
+              </div>
+          </div>
+
+        <div style="background-color:#104849;" class="flex flex-col items-center p-8 transition-colors duration-300 transform cursor-pointer group rounded-xl hover:-translate-y-2">
+              <img class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300" src="/img/member/Saptak_Dey.jpeg" alt="pf">
+              
+              <h1 style="color: #3fb7ba;" class="mt-4 text-2xl font-semibold capitalize ">Saptak Dey</h1>
+                        
+              <p style="color: #3fb7ba;" class="mt-2 capitalize">Product Manager</p>
+              
+              <div class="flex mt-3 -mx-2">
+                <a style="color:white" onMouseOut="this.style.color='#ffffff'"
+                onMouseOver="this.style.color='#3fb7ba'" class="ml-3" href="https://www.instagram.com/tj_noxx/" target="_blank">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    class="w-5 h-5" viewBox="0 0 24 24">
+                    <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                    <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                  </svg>
+                </a>
+              </div>
+          </div>
+
+        <div style="background-color:#104849;" class="flex flex-col items-center p-8 transition-colors duration-300 transform cursor-pointer group rounded-xl hover:-translate-y-2">
+              <img class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300" src="/img/member/Arghadeep Sikdar.jpeg" alt="pf">
+              
+              <h1 style="color: #3fb7ba;" class="mt-4 text-2xl font-semibold capitalize ">Arghadeep Sikdar</h1>
+                        
+              <p style="color: #3fb7ba;" class="mt-2 capitalize">Editor</p>
+              
+              <div class="flex mt-3 -mx-2">
+                <a style="color:white" onMouseOut="this.style.color='#ffffff'"
+                onMouseOver="this.style.color='#3fb7ba'" class="ml-3" href="https://www.instagram.com/arghadeep.ryzen/" target="_blank">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    class="w-5 h-5" viewBox="0 0 24 24">
+                    <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                    <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                  </svg>
+                </a>
+              </div>
+          </div>
+
+        <div style="background-color:#104849;" class="flex flex-col items-center p-8 transition-colors duration-300 transform cursor-pointer group rounded-xl hover:-translate-y-2">
+              <img class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300" src="/img/member/Ankan Mallick.jpg" alt="pf">
+              
+              <h1 style="color: #3fb7ba;" class="mt-4 text-2xl font-semibold capitalize ">Ankan Mallick</h1>
+                        
+              <p style="color: #3fb7ba;" class="mt-2 capitalize">Chief Marketing Officer</p>
+              
+              <div class="flex mt-3 -mx-2">
+                <a style="color:white" onMouseOut="this.style.color='#ffffff'"
+                onMouseOver="this.style.color='#3fb7ba'" class="ml-3" href="https://www.instagram.com/ankan.mallick.2210/" target="_blank">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    class="w-5 h-5" viewBox="0 0 24 24">
+                    <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                    <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                  </svg>
+                </a>
+              </div>
+          </div>
+    
+      </div>
+  </div>
 </section>
 
       <hr>
@@ -143,56 +241,63 @@ body{
           class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
           <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
             <a class="title-font font-medium md:justify-start justify-center text-white">
-              <p class="text-yellow-500 text-sm text-center sm:text-left">© 2021 techjunction.online
-              </p>
+              <p style="color: #3fb7ba;" class="text-sm text-center sm:text-left">© 2020 GeekCreek</p>
               <br>
             </a>
           </div>
           <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
             <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 class="title-font font-medium text-yellow-500 tracking-widest text-sm mb-3">Quick Links</h2>
+              <h2 style="color: #3fb7ba;" class="title-font font-medium tracking-widest text-sm mb-3">Quick Links</h2>
               <nav class="list-none mb-10">
                 <li>
-                  <a class="text-gray-500 hover:text-yellow-100 " href="/aboutus">About Us</a>
+                  <a style="color:white" onMouseOut="this.style.color='#ffffff'"
+                    onMouseOver="this.style.color='#3fb7ba'" href="/aboutus">About Us</a>
               </li>
               <li>
-                  <a class="text-gray-500 hover:text-yellow-100" href="/privacy&policy">Privacy Policy</a>
+                  <a style="color:white" onMouseOut="this.style.color='#ffffff'"
+                    onMouseOver="this.style.color='#3fb7ba'" href="/privacy&policy">Privacy Policy</a>
               </li>
               <li>
-                  <a class="text-gray-500 hover:text-yellow-100" href="/terms&condition">Terms & Conditions</a>
+                  <a style="color:white" onMouseOut="this.style.color='#ffffff'"
+                    onMouseOver="this.style.color='#3fb7ba'" href="/terms&condition">Terms & Conditions</a>
               </li>
               </nav>
             </div>
             <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 class="title-font font-medium text-yellow-500 tracking-widest text-sm mb-3">Address</h2>
+              <h2  style="color: #3fb7ba;" class="title-font font-medium tracking-widest text-sm mb-3">Address</h2>
               <nav class="list-none mb-10">
-                <p class="mt-2 text-sm text-yellow-100">Hospital Road,Duttapukur,West Bengal,Kolkata-743248</p>
+                <p style="color: #ffffff;" class="mt-2 text-sm ">Duttapukur, West Bengal, India</p>
               </nav>
             </div>
             <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 class="title-font font-medium text-yellow-500 tracking-widest text-sm mb-3">Contact Us</h2>
+              <h2 style="color: #3fb7ba;" class="title-font font-medium tracking-widest text-sm mb-3">Contact Us</h2>
               <nav class="list-none mb-10">
-                <p class="mt-2 text-sm text-yellow-100">Tjhelpcenter@gmail.com</p>
+                <a style="color:white" onMouseOut="this.style.color='#ffffff'"
+                onMouseOver="this.style.color='#3fb7ba'" href="mailto:help.geekcreek@gmail.com" target="_blank" class="mt-2 text-sm">help.geekcreek@gmail.com</a>
               </nav>
             </div>
             <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 class="title-font font-medium text-yellow-500 tracking-widest text-sm mb-3">Find us on</h2>
+              <h2 
+              style="color: #3fb7ba;" class="title-font font-medium tracking-widest text-sm mb-3">Find us on</h2>
               <nav class="list-none mb-10">
                 <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
-                  <a class="text-gray-500 hover:text-yellow-100" href="https://www.facebook.com/Tech-Junction-107974924934869" target="_blank">
+                  <a style="color:white" onMouseOut="this.style.color='#ffffff'"
+                  onMouseOver="this.style.color='#3fb7ba'" class="ml-3" href="https://www.facebook.com/geekcreekgc" target="_blank">
                     <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
                       viewBox="0 0 24 24">
                       <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
                     </svg>
                   </a>
-                  <a class="ml-3 text-gray-500 hover:text-yellow-100" href="https://www.instagram.com/techjunctiontj/" target="_blank">
+                  <a style="color:white" onMouseOut="this.style.color='#ffffff'"
+                onMouseOver="this.style.color='#3fb7ba'" class="ml-3" href="https://www.instagram.com/geekcreekgc/" target="_blank">
                     <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                       class="w-5 h-5" viewBox="0 0 24 24">
                       <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
                       <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
                     </svg>
                   </a>
-                  <a class="ml-3 text-gray-500 hover:text-yellow-100" href="https://www.youtube.com/channel/UCIISWFqS8QBfTOXifX3G8Gg"
+                  <a style="color:white" onMouseOut="this.style.color='#ffffff'"
+                onMouseOver="this.style.color='#3fb7ba'" class="ml-3 text" href="https://www.youtube.com/channel/UCIISWFqS8QBfTOXifX3G8Gg"
                     target="_blank">
                     <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                       class="w-5 h-5" viewBox="0 0 24 24">
@@ -206,7 +311,7 @@ body{
                             }
     
                             .cls-2 {
-                              fill: #fff;
+                              fill: #fff; 
                             }
                           </style>
                         </defs>
@@ -217,9 +322,11 @@ body{
                       </svg>
                     </svg>
                   </a>
-                  <a class="ml-3 text-gray-500 hover:text-yellow-100" href="https://twitter.com/techjunctiontj" target="_blank">
-                    <svg ill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                    class="w-5 h-5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/></svg>
+                  <a style="color:white" onMouseOut="this.style.color='#ffffff'"
+                onMouseOver="this.style.color='#3fb7ba'" class="ml-3" href="https://twitter.com/geekcreekgc" target="_blank">
+                    <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                      <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                    </svg>
                   </a>
                 </span>
               </nav>
@@ -227,7 +334,7 @@ body{
           </div>
         </div>
       </footer>
-</section>
+    </section>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
