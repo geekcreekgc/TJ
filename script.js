@@ -14,6 +14,6 @@ if (alertTrigger) {
   })
 }
 
-var Info=("© 2020 TechJunction.online | 7.1.1v |");
+var Info=("© 2020 TechJunction.online | 7.1.2v |");
 var credit =(" The Website created with Bootstarp and Tailwind CSS, Developers : Ayush Baral , Saptak Dey");
 console.log(Info + credit);
