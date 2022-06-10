@@ -1,4 +1,4 @@
-### Procject Name : Tech Junction 🌐
+### Procject Name : Geek Creek 🌐
 
 -----------------------------------
 
