@@ -1,0 +1,542 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="title" content="Geek Creek - Home">
+  <meta name="description"
+    content="Geek Creek Founded in 2020. This is an Indian Technical Blog Website where you can learn many technical things and join the free live sessions.">
+  <meta name="robots" content="INDEX,FOLLOW">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="google-site-verification" content="orUW-9xn0dKUB6rLXbB59OHJm0X4r_3BVs_3k5FdEmg" />
+
+  <!-- import  -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <link rel="shortcut icon" href="img/Icon-modified.png" type="image/x-icon">
+  <!-- <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet"> -->
+  <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+  <script src="script.js"></script>
+  <title>Home - Geek Creek</title>
+  <!--Tittle-->
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-58XZL793RE"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-58XZL793RE');
+  </script>
+
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9677488778837604"
+    crossorigin="anonymous"></script>
+  <link type="text/css" rel="stylesheet" href="magicscroll/magicscroll.css" />
+  <script type="text/javascript" src="magicscroll/magicscroll.js"></script>
+</head>
+
+<style>
+  body {
+    background-color: #001f20;
+  }
+
+  #btnsty {
+    background-color: #247c84;
+    color: #d5d6d6;
+  }
+
+  a#btnsty:hover {
+    background-color: #3fb7ba;
+  }
+
+  a#headsty:hover {
+    color: #93f6f8;
+  }
+
+  /* Style the Image Used to Trigger the Modal */
+  .myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  .myImg:hover {
+    opacity: 0.7;
+  }
+
+  /* The Modal (background) */
+  .modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.9);
+    /* Black w/ opacity */
+  }
+
+  /* Modal Content (Image) */
+  .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+  }
+
+  .caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    /*height: 150px;*/
+  }
+
+  /* Add Animation - Zoom in the Modal */
+  .modal-content,
+  .caption {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+
+  @keyframes zoom {
+    from {
+      transform: scale(0)
+    }
+
+    to {
+      transform: scale(1)
+    }
+  }
+
+  /* The Close Button */
+  .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+
+  /* 100% Image Width on Smaller Screens */
+  @media only screen and (max-width: 700px) {
+    .modal-content {
+      width: 100%;
+    }
+  }
+</style>
+
+<body>
+
+  <!-- Nav-Bar  -->
+
+  <nav class="nav justify-content-center navbar-dark">
+    <div class="navbar navbar-expand-lg ">
+      <div class="container-fluid">
+        <a class="navbar-brand " href="/">
+          <img src="/img/Icon.png" alt="logo" width="30" height="24" class="d-inline-block align-text-top ">
+          <img src="/img/Tittle.png" alt="logo" width="50" height="30" class="d-inline-block ">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+
+            <div class="container">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Blog
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="/blogs/gaming">Gaming</a></li>
+                  <li><a class="dropdown-item" href="/blogs/technology">Technology</a></li>
+                  <li><a class="dropdown-item" href="/blogs/science">Science</a></li>
+                </ul>
+              </li>
+            </div>
+
+            <div class=" container">
+              <li class="nav-item truncate">
+                <a class="nav-link active" aria-current="page" href="/geekgallery">Geek Gallery</a>
+              </li>
+            </div>
+
+            <div class="container ">
+              <li class="nav-item ">
+                <a class="nav-link" aria-current="page" href="/courses">Courses</a>
+              </li>
+            </div>
+
+            <div class="container">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page"
+                  href="https://www.youtube.com/channel/UCIISWFqS8QBfTOXifX3G8Gg/videos" target="_blank">Video</a>
+              </li>
+            </div>
+
+            <div class="container">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="/aboutus">About </a>
+              </li>
+            </div>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  </div>
+
+  <hr>
+
+  <!-- Top Box -->
+
+  <div class="container py-8 mx-auto">
+    <div class="flex flex-col text-center w-full mb-20">
+      <h1 style="color: #3fb7ba;" class="sm:text-3xl text-2xl font-medium title-font mb-1">Geek Gallery</h1>
+      <h2 class="text-xs tracking-widest font-medium title-font mb-1 text-yellow-200">Get premium and unique pictures to
+        use in your project that increase the uniqueness of your project
+      </h2>
+      <h3 class="text-xs tracking-widest font-medium title-font mb-4 text-red-200">The content of this page contains <a
+          class="capitalize font-bold text-red-500 hover:text-red-500"
+          href="javascript:alert(`You can't use the image without permission or by buying it.`)">legal rights</a></h3>
+
+    </div>
+  </div>
+
+  <hr>
+
+  <!--Gallery-->
+
+  <section class="overflow-hidden text-gray-700 ">
+    <div class="container px-5 py-2 mx-auto lg:pt-12 lg:px-32">
+      <div class="flex flex-wrap -m-1 md:-m-2">
+
+        <div class="flex flex-wrap w-1/3">
+          <div class="w-full p-1 md:p-2">
+            <img id="bi" class="myImg" src="img/gallery/img01.png" alt="Sweet Alyssum"
+              style="width:100%;max-width:300px">
+            <div id="myModal" class="modal">
+              <span class="close cb">&times;</span>
+              <img class="modal-content" id="img">
+              <div id="cc" class="caption"></div>
+              <button type="button"
+                class="flex m-auto inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"><a
+                  class="hover:text-white" download="Sweet_Alyssum.jpg"
+                  href="img/gallery/img01.png">Download</a></button></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex flex-wrap w-1/3">
+          <div class="w-full p-1 md:p-2">
+            <img id="bi1" class="myImg block object-cover object-center w-full h-full rounded-lg"
+              src="img/gallery/img02.png" alt="Monkey With Mango" style="width:100%;max-width:300px">
+            <div id="myModal1" class="modal">
+              <span class="close cb1">&times;</span>
+              <img class="modal-content" id="img1">
+              <div id="cc1" class="caption"></div>
+              <button type="button"
+                class="flex m-auto inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"><a
+                  class="hover:text-white" download="Monkey_With_Mango.jpg"
+                  href="img/gallery/img02.png">Download</a></button></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex flex-wrap w-1/3">
+          <div class="w-full p-1 md:p-2">
+            <img id="bi2" class="myImg block object-cover object-center w-full h-full rounded-lg"
+              src="img/gallery/img03.png" alt="Sky With Stars" style="width:100%;max-width:300px">
+            <div id="myModal2" class="modal">
+              <span class="close cb2">&times;</span>
+              <img class="modal-content" id="img2">
+              <div id="cc2" class="caption"></div>
+              <button type="button"
+                class="flex m-auto inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"><a
+                  class="hover:text-white" download="Sky_With_Stars.jpg"
+                  href="img/gallery/img03.png">Download</a></button></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex flex-wrap w-1/3">
+          <div class="w-full p-1 md:p-2">
+            <img id="bi3" class="myImg block object-cover object-center w-full h-full rounded-lg"
+              src="img/gallery/img04.png" alt="Indian Flag" style="width:100%;max-width:300px">
+            <div id="myModal3" class="modal">
+              <span class="close cb3">&times;</span>
+              <img class="modal-content" id="img3">
+              <div id="cc3" class="caption"></div>
+              <button type="button"
+                class="flex m-auto inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"><a
+                  class="hover:text-white" download="Indian_Flag.jpg"
+                  href="img/gallery/img04.png">Download</a></button></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex flex-wrap w-1/3">
+          <div class="w-full p-1 md:p-2">
+            <img id="bi4" class="myImg block object-cover object-center w-full h-full rounded-lg"
+              src="img/gallery/img05.png" alt="Girl In The Black" style="width:100%;max-width:300px">
+            <div id="myModal4" class="modal">
+              <span class="close cb4">&times;</span>
+              <img class="modal-content" id="img4">
+              <div id="cc4" class="caption"></div>
+              <button type="button"
+                class="flex m-auto inline-block px-6 py-2 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"><a
+                  class="hover:text-white" download="Girl_In_The_Black.jpg"
+                  href="img/gallery/img05.png">Download</a></button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    </div>
+  </section>
+
+
+
+  <!-- Footer -->
+
+  <footer class="body-font">
+    <div
+      class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+      <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
+        <a class="title-font font-medium md:justify-start justify-center text-white">
+          <p style="color: #3fb7ba;" class="text-sm text-center sm:text-left">© 2020-22 GeekCreek</p>
+          <br>
+        </a>
+      </div>
+      <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
+        <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+          <h2 style="color: #3fb7ba;" class="title-font font-medium tracking-widest text-sm mb-3">Quick Links</h2>
+          <nav class="list-none mb-10">
+            <li>
+              <a style="color:white" onmouseout="this.style.color='#ffffff'" onmouseover="this.style.color='#3fb7ba'"
+                href="/aboutus">About Us</a>
+            </li>
+            <li>
+              <a style="color:white" onmouseout="this.style.color='#ffffff'" onmouseover="this.style.color='#3fb7ba'"
+                href="/privacy&amp;policy">Privacy Policy</a>
+            </li>
+            <li>
+              <a style="color:white" onmouseout="this.style.color='#ffffff'" onmouseover="this.style.color='#3fb7ba'"
+                href="/terms&amp;condition">Terms &amp; Conditions</a>
+            </li>
+          </nav>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+          <h2 style="color: #3fb7ba;" class="title-font font-medium tracking-widest text-sm mb-3">Address</h2>
+          <nav class="list-none mb-10">
+            <p style="color: #ffffff;" class="mt-2 text-sm ">Duttapukur, West Bengal, India</p>
+          </nav>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+          <h2 style="color: #3fb7ba;" class="title-font font-medium tracking-widest text-sm mb-3">Contact Us</h2>
+          <nav class="list-none mb-10">
+            <a style="color: rgb(255, 255, 255);" onmouseout="this.style.color='#ffffff'"
+              onmouseover="this.style.color='#3fb7ba'" href="mailto:help@geekcreek.co.in" target="_blank"
+              class="mt-2 text-sm">help@geekcreek.co.in</a>
+          </nav>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+          <h2 style="color: #89fbfd;" class="title-font font-medium tracking-widest text-sm mb-3">Find us on</h2>
+          <nav class="list-none mb-10">
+            <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
+              <a style="color:white" onmouseout="this.style.color='#ffffff'" onmouseover="this.style.color='#3fb7ba'"
+                class="ml-3" href="https://www.facebook.com/geekcreekgc" target="_blank">
+                <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
+                  viewBox="0 0 24 24">
+                  <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                </svg>
+              </a>
+              <a style="color:white" onmouseout="this.style.color='#ffffff'" onmouseover="this.style.color='#3fb7ba'"
+                class="ml-3" href="https://www.instagram.com/geekcreekgc/" target="_blank">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  class="w-5 h-5" viewBox="0 0 24 24">
+                  <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                  <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                </svg>
+              </a>
+              <a style="color:white" onmouseout="this.style.color='#ffffff'" onmouseover="this.style.color='#3fb7ba'"
+                class="ml-3 text" href="https://www.youtube.com/channel/UCIISWFqS8QBfTOXifX3G8Gg" target="_blank">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  class="w-5 h-5" viewBox="0 0 24 24">
+                  <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                  <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 122.88 86.43">
+                    <defs>
+                      <style>
+                        .cls-1,
+                        .cls-2 {
+                          fill-rule: evenodd;
+                        }
+
+                        .cls-2 {
+                          fill: #fff;
+                        }
+                      </style>
+                    </defs>
+                    <title>black-and-white-youtube</title>
+                    <path class="cls-1"
+                      d="M121.63,18.65s-1.2-8.47-4.9-12.19c-4.67-4.89-9.91-4.92-12.31-5.21C87.24,0,61.43,0,61.43,0h0s-25.8,0-43,1.25c-2.4.29-7.63.31-12.31,5.21C2.4,10.18,1.22,18.65,1.22,18.65A187.15,187.15,0,0,0,0,38.55v9.31a187.65,187.65,0,0,0,1.22,19.9S2.42,76.23,6.09,80c4.68,4.9,10.82,4.74,13.57,5.26,9.83.94,41.78,1.22,41.78,1.22s25.83,0,43-1.27c2.41-.29,7.64-.32,12.32-5.21,3.69-3.72,4.89-12.2,4.89-12.2a187.15,187.15,0,0,0,1.22-19.9V38.54a189.26,189.26,0,0,0-1.25-19.9Z">
+                    </path>
+                    <polygon class="cls-2" points="48.71 59.16 48.71 24.63 81.9 41.95 48.71 59.16 48.71 59.16">
+                    </polygon>
+                  </svg>
+                </svg>
+              </a>
+              <a style="color:white" onmouseout="this.style.color='#ffffff'" onmouseover="this.style.color='#3fb7ba'"
+                class="ml-3" href="https://twitter.com/geekcreekgc" target="_blank">
+                <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
+                  viewBox="0 0 24 24">
+                  <path
+                    d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                  </path>
+                </svg>
+              </a>
+            </span>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+    crossorigin="anonymous"></script>
+
+  <!--Start of Tawk.to Script-->
+  <script type="text/javascript">
+    var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+    (function () {
+      var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+      s1.async = true;
+      s1.src = 'https://embed.tawk.to/610a68b3d6e7610a49ae886f/1fc8ahvnc';
+      s1.charset = 'UTF-8';
+      s1.setAttribute('crossorigin', '*');
+      s0.parentNode.insertBefore(s1, s0);
+    })();
+  </script>
+  <!--End of Tawk.to Script-->
+
+  <script>
+    // Get the modal
+    var modal = document.getElementById("myModal");
+    var modal1 = document.getElementById("myModal1");
+    var modal2 = document.getElementById("myModal2");
+    var modal3 = document.getElementById("myModal3");
+    var modal4 = document.getElementById("myModal4");
+
+    var img = document.getElementById("bi");
+    var img1 = document.getElementById("bi1");
+    var img2 = document.getElementById("bi2");
+    var img3 = document.getElementById("bi3");
+    var img4 = document.getElementById("bi4");
+
+    var modalImg = document.getElementById("img");
+    var modalImg1 = document.getElementById("img1");
+    var modalImg2 = document.getElementById("img2");
+    var modalImg3 = document.getElementById("img3");
+    var modalImg4 = document.getElementById("img4");
+
+    var captionText = document.getElementById("cc");
+    var captionText1 = document.getElementById("cc1");
+    var captionText2 = document.getElementById("cc2");
+    var captionText3 = document.getElementById("cc3");
+    var captionText4 = document.getElementById("cc4");
+
+    var span = document.getElementsByClassName("cb")[0];
+    var span1 = document.getElementsByClassName("cb1")[0];
+    var span2 = document.getElementsByClassName("cb2")[0];
+    var span3 = document.getElementsByClassName("cb3")[0];
+    var span4 = document.getElementsByClassName("cb4")[0];
+
+
+    img.onclick = function () {
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+
+    img1.onclick = function () {
+      modal1.style.display = "block";
+      modalImg1.src = this.src;
+      captionText1.innerHTML = this.alt;
+    }
+
+    img2.onclick = function () {
+      modal2.style.display = "block";
+      modalImg2.src = this.src;
+      captionText2.innerHTML = this.alt;
+    }
+
+    img3.onclick = function () {
+      modal3.style.display = "block";
+      modalImg3.src = this.src;
+      captionText3.innerHTML = this.alt;
+    }
+
+    img4.onclick = function () {
+      modal4.style.display = "block";
+      modalImg4.src = this.src;
+      captionText4.innerHTML = this.alt;
+    }
+
+
+    span.onclick = function () {
+      modal.style.display = "none";
+    }
+    span1.onclick = function () {
+      modal1.style.display = "none";
+    }
+    span2.onclick = function () {
+      modal2.style.display = "none";
+    }
+    span3.onclick = function () {
+      modal3.style.display = "none";
+    }
+    span4.onclick = function () {
+      modal4.style.display = "none";
+    }
+
+  </script>
+
+</body>
+
+</html>
