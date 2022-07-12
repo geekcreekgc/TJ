@@ -14,6 +14,6 @@
 //   })
 // }
 
-var Info=("© 2020-22 Geekcreek.co.in | 7.2.1v |");
+var Info=("© 2020-22 Geekcreek.co.in | 7.2.2v |");
 var credit =(" The Website created with Bootstarp and Tailwind CSS, Developers : Ayush Baral , Saptak Dey");
 console.log(Info + credit);
