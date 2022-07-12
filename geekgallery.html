@@ -57,103 +57,6 @@
   }
 
   a:hover{color: #3fb7ba;}
-
-  /* Style the Image Used to Trigger the Modal */
-  .myImg {
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.3s;
-  }
-
-  .myImg:hover {
-    opacity: 0.7;
-  }
-
-  /* The Modal (background) */
-  .modal {
-    display: none;
-    /* Hidden by default */
-    position: fixed;
-    /* Stay in place */
-    z-index: 1;
-    /* Sit on top */
-    padding-top: 100px;
-    /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 100%;
-    /* Full width */
-    height: 100%;
-    /* Full height */
-    overflow: auto;
-    /* Enable scroll if needed */
-    background-color: rgb(0, 0, 0);
-    /* Fallback color */
-    background-color: rgba(0, 0, 0, 0.9);
-    /* Black w/ opacity */
-  }
-
-  /* Modal Content (Image) */
-  .modal-content {
-    margin: auto;
-    display: block;
-    width: 80%;
-    max-width: 700px;
-  }
-
-  .caption {
-    margin: auto;
-    display: block;
-    width: 80%;
-    max-width: 700px;
-    text-align: center;
-    color: #ccc;
-    padding: 10px 0;
-    /*height: 150px;*/
-  }
-
-  /* Add Animation - Zoom in the Modal */
-  .modal-content,
-  .caption {
-    animation-name: zoom;
-    animation-duration: 0.6s;
-  }
-
-  @keyframes zoom {
-    from {
-      transform: scale(0)
-    }
-
-    to {
-      transform: scale(1)
-    }
-  }
-
-  /* The Close Button */
-  .close {
-    position: absolute;
-    top: 15px;
-    right: 35px;
-    color: #f1f1f1;
-    font-size: 40px;
-    font-weight: bold;
-    transition: 0.3s;
-  }
-
-  .close:hover,
-  .close:focus {
-    color: #bbb;
-    text-decoration: none;
-    cursor: pointer;
-  }
-
-
-  /* 100% Image Width on Smaller Screens */
-  @media only screen and (max-width: 700px) {
-    .modal-content {
-      width: 100%;
-    }
-  }
 </style>
 
 <body>
@@ -249,7 +152,7 @@
         
         <div class="px-4 py-16 md:w-1/3">
           <div class="h-full border-2 border-gray-800 rounded-lg overflow-hidden">
-            <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="img/gallery/img01.png" alt="blog">
+            <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="img/gallery/img01.png" alt="img01">
             <div class="p-6">
               <h1 class="title-font text-lg font-medium text-white mb-3">Sweet Alyssum</h1>
               <div class="flex items-center pb-4">
@@ -278,9 +181,9 @@
         
         <div class="px-4 py-16 md:w-1/3">
           <div class="h-full border-2 border-gray-800 rounded-lg overflow-hidden">
-            <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="img/gallery/img01.png" alt="blog">
+            <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="img/gallery/img02.png" alt="img02">
             <div class="p-6">
-              <h1 class="title-font text-lg font-medium text-white mb-3">Sweet Alyssum</h1>
+              <h1 class="title-font text-lg font-medium text-white mb-3">Monkey With Mango</h1>
               <div class="flex items-center pb-4">
                 <a target="_blank" href="https://www.instagram.com/_sunit_531_/" aria-label="Author" title="Author" class="mr-1">
                   <img src="img/member/Sunit Mukherjee.JPG" alt="avatar" class="object-cover w-10 h-10 rounded-full shadow-sm"/>
@@ -293,8 +196,8 @@
               <div class="flex items-center flex-wrap">
                 <a class="cursor-pointer inline-flex items-center md:mb-2 lg:mb-0" href="https://web.whatsapp.com/send?phone=8981918040&text=Hey%2C+I+want+to+buy+an+image+from+Geek+Gallery%2E&type=phone_number&app_absent=0" target="_blank">Buy Now
                 </a>
-                <a class="pl-2 inline-flex items-center md:mb-2 lg:mb-0" download="Sweet_Alyssum.jpg"
-                href="img/gallery/img01.png">
+                <a class="pl-2 inline-flex items-center md:mb-2 lg:mb-0" download="Monkey_With_Mango.jpg"
+                href="img/gallery/img02.png">
                   <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 ml-2" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
                     <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
                     <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
@@ -307,9 +210,9 @@
         
         <div class="px-4 py-16 md:w-1/3">
           <div class="h-full border-2 border-gray-800 rounded-lg overflow-hidden">
-            <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="img/gallery/img01.png" alt="blog">
+            <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="img/gallery/img03.png" alt="img03">
             <div class="p-6">
-              <h1 class="title-font text-lg font-medium text-white mb-3">Sweet Alyssum</h1>
+              <h1 class="title-font text-lg font-medium text-white mb-3">Sky With Stars</h1>
               <div class="flex items-center pb-4">
                 <a target="_blank" href="https://www.instagram.com/_sunit_531_/" aria-label="Author" title="Author" class="mr-1">
                   <img src="img/member/Sunit Mukherjee.JPG" alt="avatar" class="object-cover w-10 h-10 rounded-full shadow-sm"/>
@@ -322,8 +225,8 @@
               <div class="flex items-center flex-wrap">
                 <a class="cursor-pointer inline-flex items-center md:mb-2 lg:mb-0" href="https://web.whatsapp.com/send?phone=8981918040&text=Hey%2C+I+want+to+buy+an+image+from+Geek+Gallery%2E&type=phone_number&app_absent=0" target="_blank">Buy Now
                 </a>
-                <a class="pl-2 inline-flex items-center md:mb-2 lg:mb-0" download="Sweet_Alyssum.jpg"
-                href="img/gallery/img01.png">
+                <a class="pl-2 inline-flex items-center md:mb-2 lg:mb-0" download="Sky_With_Stars.jpg"
+                href="img/gallery/img03.png">
                   <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 ml-2" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
                     <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
                     <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
@@ -336,9 +239,9 @@
         
         <div class="px-4 py-16 md:w-1/3">
           <div class="h-full border-2 border-gray-800 rounded-lg overflow-hidden">
-            <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="img/gallery/img01.png" alt="blog">
+            <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="img/gallery/img04.png" alt="img04">
             <div class="p-6">
-              <h1 class="title-font text-lg font-medium text-white mb-3">Sweet Alyssum</h1>
+              <h1 class="title-font text-lg font-medium text-white mb-3">Indian Flag</h1>
               <div class="flex items-center pb-4">
                 <a target="_blank" href="https://www.instagram.com/_sunit_531_/" aria-label="Author" title="Author" class="mr-1">
                   <img src="img/member/Sunit Mukherjee.JPG" alt="avatar" class="object-cover w-10 h-10 rounded-full shadow-sm"/>
@@ -351,8 +254,8 @@
               <div class="flex items-center flex-wrap">
                 <a class="cursor-pointer inline-flex items-center md:mb-2 lg:mb-0" href="https://web.whatsapp.com/send?phone=8981918040&text=Hey%2C+I+want+to+buy+an+image+from+Geek+Gallery%2E&type=phone_number&app_absent=0" target="_blank">Buy Now
                 </a>
-                <a class="pl-2 inline-flex items-center md:mb-2 lg:mb-0" download="Sweet_Alyssum.jpg"
-                href="img/gallery/img01.png">
+                <a class="pl-2 inline-flex items-center md:mb-2 lg:mb-0" download="Indian_Flag.jpg"
+                href="img/gallery/img04.png">
                   <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 ml-2" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
                     <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
                     <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
@@ -365,9 +268,9 @@
         
         <div class="px-4 py-16 md:w-1/3">
           <div class="h-full border-2 border-gray-800 rounded-lg overflow-hidden">
-            <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="img/gallery/img01.png" alt="blog">
+            <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="img/gallery/img05.png" alt="img05">
             <div class="p-6">
-              <h1 class="title-font text-lg font-medium text-white mb-3">Sweet Alyssum</h1>
+              <h1 class="title-font text-lg font-medium text-white mb-3">Girl In The Black</h1>
               <div class="flex items-center pb-4">
                 <a target="_blank" href="https://www.instagram.com/_sunit_531_/" aria-label="Author" title="Author" class="mr-1">
                   <img src="img/member/Sunit Mukherjee.JPG" alt="avatar" class="object-cover w-10 h-10 rounded-full shadow-sm"/>
@@ -380,8 +283,8 @@
               <div class="flex items-center flex-wrap">
                 <a class="cursor-pointer inline-flex items-center md:mb-2 lg:mb-0" href="https://web.whatsapp.com/send?phone=8981918040&text=Hey%2C+I+want+to+buy+an+image+from+Geek+Gallery%2E&type=phone_number&app_absent=0" target="_blank">Buy Now
                 </a>
-                <a class="pl-2 inline-flex items-center md:mb-2 lg:mb-0" download="Sweet_Alyssum.jpg"
-                href="img/gallery/img01.png">
+                <a class="pl-2 inline-flex items-center md:mb-2 lg:mb-0" download="Girl_In_The_Black.jpg"
+                href="img/gallery/img05.png">
                   <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 ml-2" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
                     <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
                     <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
@@ -519,88 +422,6 @@
     })();
   </script>
   <!--End of Tawk.to Script-->
-
-  <script>
-    // Get the modal
-    var modal = document.getElementById("myModal");
-    var modal1 = document.getElementById("myModal1");
-    var modal2 = document.getElementById("myModal2");
-    var modal3 = document.getElementById("myModal3");
-    var modal4 = document.getElementById("myModal4");
-
-    var img = document.getElementById("bi");
-    var img1 = document.getElementById("bi1");
-    var img2 = document.getElementById("bi2");
-    var img3 = document.getElementById("bi3");
-    var img4 = document.getElementById("bi4");
-
-    var modalImg = document.getElementById("img");
-    var modalImg1 = document.getElementById("img1");
-    var modalImg2 = document.getElementById("img2");
-    var modalImg3 = document.getElementById("img3");
-    var modalImg4 = document.getElementById("img4");
-
-    var captionText = document.getElementById("cc");
-    var captionText1 = document.getElementById("cc1");
-    var captionText2 = document.getElementById("cc2");
-    var captionText3 = document.getElementById("cc3");
-    var captionText4 = document.getElementById("cc4");
-
-    var span = document.getElementsByClassName("cb")[0];
-    var span1 = document.getElementsByClassName("cb1")[0];
-    var span2 = document.getElementsByClassName("cb2")[0];
-    var span3 = document.getElementsByClassName("cb3")[0];
-    var span4 = document.getElementsByClassName("cb4")[0];
-
-
-    img.onclick = function () {
-      modal.style.display = "block";
-      modalImg.src = this.src;
-      captionText.innerHTML = this.alt;
-    }
-
-    img1.onclick = function () {
-      modal1.style.display = "block";
-      modalImg1.src = this.src;
-      captionText1.innerHTML = this.alt;
-    }
-
-    img2.onclick = function () {
-      modal2.style.display = "block";
-      modalImg2.src = this.src;
-      captionText2.innerHTML = this.alt;
-    }
-
-    img3.onclick = function () {
-      modal3.style.display = "block";
-      modalImg3.src = this.src;
-      captionText3.innerHTML = this.alt;
-    }
-
-    img4.onclick = function () {
-      modal4.style.display = "block";
-      modalImg4.src = this.src;
-      captionText4.innerHTML = this.alt;
-    }
-
-
-    span.onclick = function () {
-      modal.style.display = "none";
-    }
-    span1.onclick = function () {
-      modal1.style.display = "none";
-    }
-    span2.onclick = function () {
-      modal2.style.display = "none";
-    }
-    span3.onclick = function () {
-      modal3.style.display = "none";
-    }
-    span4.onclick = function () {
-      modal4.style.display = "none";
-    }
-
-  </script>
 
 </body>
 
